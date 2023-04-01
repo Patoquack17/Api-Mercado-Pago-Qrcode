@@ -97,9 +97,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         "external_reference" => "2",
         "payment_method_id" => "pix",
         "payer" => array(
-            "email" => "eduardo_daconceicao@fosj.unesp.br",
-            "first_name" => "Matheus",
-            "last_name" => "de Paula",
+            "email" => "EMAIL",
+            "first_name" => "NOME",
+            "last_name" => "SOBRENOME",
             "identification" => array(
                 "type" => "CPF",
                 "number" => $cpf, // usa o CPF recebido
@@ -127,7 +127,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         CURLOPT_HTTPHEADER => array(
             'accept: application/json',
             'content-type: application/json',
-            'Authorization: Bearer APP_USR-5340994883923652-120512-86d6f8bd521168c69b60133794eddea5-216059996',
+            'Authorization: Bearer SUA TOKEN',
         ),
     ));
     
